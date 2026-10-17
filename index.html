@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Magics | Learn. Play. Conquer.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="description.css" />
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Math Magics home"><img class="brand-mark" src="assets/math-magics.png" alt="Math Magics" /><span>Math<br><b>Magics</b></span></a>
+    <nav><a href="#play">Play</a><a href="#reviews">Reviews</a></nav>
+    <a class="nav-cta" href="#play">Start quest <span>→</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> A math adventure for brave minds</div>
+        <h1>Enter the world of <em>Math Magics.</em></h1>
+        <p class="hero-subtitle">and use your math skills to beat the level!</p>
+      </div>
+      <div class="hero-art logo-art" aria-label="Math Magics logo">
+        <img src="assets/math-magics.png" alt="Math Magics logo with a magician hat and infinity symbol" />
+        <span class="logo-spark spark-a">✦</span><span class="logo-spark spark-b">✦</span>
+      </div>
+    </section>
+
+    <section id="play" class="game-section wrap">
+      <div class="section-heading"><div><h2>Your quest begins here</h2></div><div class="status-pill"><span></span> Demo mode · Ready to play</div></div>
+      <a class="game-link-card featured-game-link" href="https://math-magics.itch.io/math-kinght" target="_blank" rel="noopener noreferrer"><div><span class="kicker">PLAY THE FULL GAME</span><h3>Math Knight ↗</h3><p>Open the complete educational adventure on itch.io.</p></div><span class="visit">Play now</span></a>
+      <div class="game-image-frame"><img src="assets/math-knight-gameplay.png" alt="Math Knight gameplay showing controls and math attacks" /></div>
+      <div class="game-carousel" aria-label="Math Knight screenshots">
+        <button class="carousel-arrow previous" type="button" aria-label="Previous screenshot">‹</button>
+        <div class="carousel-track">
+          <button class="carousel-thumb active" type="button" data-image="assets/math-knight-gameplay.png"><img src="assets/math-knight-gameplay.png" alt="Math Knight title screen" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-1.png"><img src="assets/math-knight-1.png" alt="Math Knight gameplay screenshot 1" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-2.png"><img src="assets/math-knight-2.png" alt="Math Knight gameplay screenshot 2" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-3.png"><img src="assets/math-knight-3.png" alt="Math Knight gameplay screenshot 3" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-4.png"><img src="assets/math-knight-4.png" alt="Math Knight gameplay screenshot 4" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-5.png"><img src="assets/math-knight-5.png" alt="Math Knight gameplay screenshot 5" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-6.png"><img src="assets/math-knight-6.png" alt="Math Knight gameplay screenshot 6" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-7.png"><img src="assets/math-knight-7.png" alt="Math Knight gameplay screenshot 7" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-8.png"><img src="assets/math-knight-8.png" alt="Math Knight gameplay screenshot 8" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-9.png"><img src="assets/math-knight-9.png" alt="Math Knight gameplay screenshot 9" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-extra-1.png"><img src="assets/math-knight-extra-1.png" alt="Math Knight gameplay screenshot 11" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-extra-3.png"><img src="assets/math-knight-extra-3.png" alt="Math Knight gameplay screenshot 13" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-extra-4.png"><img src="assets/math-knight-extra-4.png" alt="Math Knight gameplay screenshot 14" /></button>
+          <button class="carousel-thumb" type="button" data-image="assets/math-knight-extra-5.png"><img src="assets/math-knight-extra-5.png" alt="Math Knight game over screen" /></button>
+        </div>
+        <button class="carousel-arrow next" type="button" aria-label="Next screenshot">›</button>
+      </div>
+      <p class="game-caption">Click the link above to play Math Knight on itch.io.</p>
+      <div class="game-description">
+        <span class="kicker">ABOUT THE GAME</span>
+        <p><strong>Math Knight</strong> is a novel educational game designed to engage K-12 students by embedding mathematical principles directly into gameplay. This research investigates how integrating math into game mechanics—using a <strong>roguelike</strong> framework—can overcome common challenges such as math anxiety and disinterest. Developed in <strong>C#</strong> with the <strong>Unity</strong> engine, the game incorporates a dynamic health system represented by arithmetic expressions, knight ability to cast arithmetic operations, and adaptive difficulty tailored to individual performance.</p>
+      </div>
+    </section>
+
+<section id="reviews" class="reviews-section"><div class="wrap"><div class="section-heading"><div><span class="kicker">THE NOTICE BOARD</span><h2>What fellow knights say</h2></div><div class="rating-summary"><span class="stars">★★★★★</span><strong id="rating-value">4.8</strong><span>(28 ratings)</span></div></div><div class="reviews-grid"><div id="review-list" class="review-list"></div><form id="review-form" class="review-form"><h3>Add your review</h3><label>Your rating</label><div class="rating-input" role="radiogroup" aria-label="Choose a rating"><button type="button" data-rating="1">★</button><button type="button" data-rating="2">★</button><button type="button" data-rating="3">★</button><button type="button" data-rating="4">★</button><button type="button" data-rating="5">★</button></div><label for="review-text">Your quest log</label><textarea id="review-text" required placeholder="What did you think of the game?" rows="3"></textarea><button class="button primary submit-review" type="submit">Post review <span>→</span></button></form></div></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand" href="#top" aria-label="Math Magics home"><img class="brand-mark" src="assets/math-magics.png" alt="Math Magics" /><span>Math<br><b>Magics</b></span></a><span>Keep learning. Keep questing. ✨</span><span>© 2025 Math Magics</span></div></footer>
+  <script src="reviews.js"></script>
+  <script src="carousel.js"></script>
+</body>
+</html>
